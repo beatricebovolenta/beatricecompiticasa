@@ -8,34 +8,22 @@ int main(){
     int a[N] = {-2,3,4,1,0,8,6,5,1,4,3,0};
     int dim = 12;
     selection_sort(a, dim);
-    cout << endl;
+
     return 0;
 }
 
 void selection_sort(int v[], int dim)
 {
-    int comodo, ind_min;
+    int comodo,ind_min;
     for(int i = 0; i < dim-1; i++){
-        ind_min = i;
+        ind-min=i;
         for (int j = i+1; j < dim; j++){
             if (v[ind_min] > v[j]){
-             ind_min = j;
+               ind_min=j;
             }
+            v[i]=comodo;
+            v[i]=v[ind_min];
+            v[ind_min]=comodo;
         }
-        comodo=v[i];
-        v[i]=v[ind_min];
-        v[ind_min]= comodo;
     }
-    }
-     for(int i=0; i<dim-1; i++){
-        int min = i;
-        for(int j=i+1; j<dim; j++){
-            if(v[j]<v[min]){
-                min = j;
-            }
-        }
-        comodo = v[min];
-        v[min] = v[i];
-        v[i] = comodo;
-        }
 }//end selection sort
