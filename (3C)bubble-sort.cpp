@@ -28,6 +28,10 @@ void bubble_sort(int v[], int dim){
         sup = k;
         continua = false;
         for(i = 0; i < sup-1; i++){
+               cout<<"i =" <<i<< ";";
+        cout<<"sup="<<sup<<";";
+        cout<<"k="<<k<<";";
+ cout<<"l' array e' :" <<endl;
             if (v[i]>v[i+1]){
                 // scambio tra v[i] e v[i+1]
                 scambio(v, dim, i, i+1);
