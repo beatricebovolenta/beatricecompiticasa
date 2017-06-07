@@ -13,7 +13,7 @@ body
 	margin: 0 auto;
 	border-width: 0 2px;
 	border-style: solid;
-	border-color: #930;
+	border-color: #FF0000;
 	padding: 0;
 	background: #40657B url(../images/header_repeat2.jpg) top right repeat-x;
 }
@@ -22,14 +22,14 @@ body
 {
 	margin: 0;
 	padding: 0;
-	height: 193px;
-	background: url(../images/palloni-pallavolo.jpg) top left no-repeat;
+	height: 210px;
+	background: url(../images/volley-rete.jpg) top left no-repeat;
 }
 
 #header h1
 {
 	font-size: 3em;
-	color: #000;
+	color: #000000;
 	text-align: right;
 	margin: 0;
 	padding: 10px 20px 0 0;
@@ -70,7 +70,7 @@ body
 #menu li a
 {
 	background-image: url(../images/tabs2.gif);
-	color: #FFF;
+	color: #1e90ff;
 	text-decoration: none;
 	font-weight: 700;
 	display: block;
@@ -84,7 +84,7 @@ body
 
 #menu li.active a,#menu li.active a:hover
 {
-	color: #000;
+	color: #808080;
 	margin: 3px 0 26px 0;
 	padding: 6px 0 0 0;
 	height: 22px;
@@ -99,7 +99,7 @@ body
 #body
 {
 	width: 85%;
-	background-color: #40657B;
+	background-color: #FF6666;
 	border-width: 0 2px;
 	border-style: solid;
 	border-color: #930;
@@ -109,7 +109,7 @@ body
 
 .left, .right
 {
-	color:#759EB7;
+	color:#FFFFFF;
 	width: 155px;
 	float: left;
 	margin: 0 0 0 5px;
@@ -124,7 +124,7 @@ body
 
 .main
 {
-	color: #FFF;
+	color: #FFFFFF;
 	width: auto;
 	margin: 0 175px;
 }
@@ -154,7 +154,7 @@ body
 #footer
 {
 	clear: both;
-	background: #476D85;
+	background: #000000;
 	border-width: 1px 0;
 	border-color: #C5C5C5;
 	border-style: solid;
@@ -200,7 +200,7 @@ ul.links li a, .menu ul li a
 
 ul.links li a:hover, .menu ul li a:hover
 {
-	color: #C5C5C5;
+	color: #000000;
 	background-color: #476D85;
 }
 
@@ -248,14 +248,14 @@ p
 	padding: 3px;
 	border-width: 0 0 1px 0;
 	border-style: solid;
-	border-color: #759EB7;
+	border-color: #000000 ;
 }
 
 a
 {
 	text-decoration: none;
 	border-bottom: 1px dotted;
-	color: #EEE;
+	color: #FFFFFF;
 }
 
 form
@@ -266,7 +266,7 @@ form
 
 form input, form textarea, form select
 {
-	color: #FFF;
+	color: #000000;
 	background-color: #476D85;
 	border: 1px solid;
 	margin: 5px;
@@ -297,7 +297,7 @@ blockquote[cite]:after {
 	content: "Quote from: " attr(cite);
 	display: block;
 	border-top: 1px solid #999;
-	color: #999;
+	color: #000000;
 	margin: 1em 0 0;
 	padding: .5em 0 0;
 	font-size: .8em;
